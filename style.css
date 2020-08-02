@@ -1,0 +1,29 @@
+.body-class{
+    background-color: blueviolet;
+}
+.url-heading{
+    background-color: cadetblue;
+    padding-left: 450px;
+    padding-right: 450px;
+    background-clip: content-box;
+    text-align: center;
+    font-size: 50px;
+}
+.url-input{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.input-box{
+    background-color: darkgreen;
+    height: 30px;
+    width: 350px;
+}
+.short-button{
+    text-align: center;
+}
+.clickable-button{
+    background-color: darkorange;
+    height:30px;
+    width:100px;
+}

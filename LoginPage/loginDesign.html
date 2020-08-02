@@ -1,0 +1,31 @@
+<html>
+<head>
+<title>Login Form Design</title>
+<link rel = "stylesheet" type = "text/css" href = "design.css">
+<script src = "validate.js"></script>
+<script>
+    function callValidate(){
+        let user = document.getElementById('username').value;
+        let pass = document.getElementById('password').value;
+        validate(user,pass);
+    }
+</script>
+<body>
+    <div class = "loginbox">
+        <img src = "png.jpg" class = "png">
+            <center><h1>Login</h1></center>
+            <form name = "login_form" action = "#" method = "post">
+                <p>Username</p><br>
+                <input type="text" name = "username" id = "username" placeholder = "Enter ur Username">
+                <br>
+                <p>Password</p><br>
+                <input type = "password" name = "password" id = "password" placeholder="Enter Password">
+                <br>
+                <input type = "button"  value = "login" onclick="callValidate()">
+                <a href = "recovery.html">Lost your password?</a><br><br>
+                <a href = "signup.html">Don't have an account?</a>
+            </form>
+    </div>
+</body>
+</head>
+</html>

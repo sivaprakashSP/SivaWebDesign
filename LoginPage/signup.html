@@ -1,0 +1,31 @@
+<html>
+<head>
+<title>Sign up page</title>
+<script src="signup.js"></script>
+<script>
+    function callSignUp(){
+        let name = document.getElementById('name').value;
+        let pass = document.getElementById('password').value;
+        SignUp(name,email,pass);
+    }
+</script>
+<body>
+    <div class="">
+        <img src = "png.jpg" class = "png">
+            <center><h1>Sign up account</h1></center>
+            <form name="signup_form" action="#" method="post">
+                <p>Name</p>
+                <input type="text" name = "Name" id = "name" placeholder = "Enter your name">
+                <br>
+                <p>Email</p>
+                <input type="email" name="email" id="email" placeholder="Enter your email id">
+                <br>
+                <p>Password</p>
+                <input type = "password" name = "password" id = "password" placeholder="Enter Password"><br>
+                <br>
+                <input type = "button"  value = "Create the account" onclick="callSignUp()">
+            </form>
+    </div>
+</body>
+</head>
+</html>
