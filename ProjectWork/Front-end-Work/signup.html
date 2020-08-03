@@ -3,11 +3,21 @@
         <title>COVID-19 Precautionary Registerpage</title>
         <style>
             form{
-            width: 1500px;
-            clear : both;
-            text-align: left;
-        }
+                width: 1500px;
+                clear : both;
+                text-align: left;
+            }
         </style>
+        <script src = "signup_validate.js"></script>
+        <script>
+            function callValidate(){
+                let pass = document.getElementById('pass').value;
+                let confirmpass = document.getElementById('confirmpass').value;
+                validate(pass,confirmpass);
+                let num = document.getElementById('num').value;
+                verify(num);
+            }
+        </script>
     </head>
     <body>
         <h1 style="color: green;" align = "left">SIGN UP TO OUR WEBSITE</h1><br>
@@ -24,15 +34,18 @@
             <input type = "password" name = "pass" id = "pass" placeholder = "Password" required>
             &nbsp;&nbsp;&nbsp;
             <label><b>CONFIRM PASSWORD : </b></label>
-            <input type = "password" name = "pass" id = "pass" placeholder = "Confirm password" required><br><br>
+            <input type = "password" name = "confirmpass" id = "confirmpass" placeholder = "Confirm password" required><br><br>
             <caption>Use 8 or more characters with a mix of letters,numbers &<br>
                      symbols
             </caption><br><br><br>
             <label><b>MOBILE NUMBER : </b></label>
             <input type="number" name="num" id="num" placeholder="Mobile Number" required><br><br><br>
-            <input type="submit" value="Sign up">
-            &nbsp;&nbsp;
-            <input type = "reset" value = "Reset">
+            <div class = "button">
+                <input type="button" value="Sign up" onclick="callValidate()">
+                &nbsp;&nbsp;
+                <input type = "reset" value = "Reset">
+                <a href="login.html" style="padding: 200px;">Sign in instead</a>
+            </div>
         </form>
     </body>
 </html>
