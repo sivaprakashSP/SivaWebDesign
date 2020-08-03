@@ -3,10 +3,29 @@
         <title>COVID-19 Precautionary Registerpage</title>
     </head>
     <body>
-        <h1 style="color: green;" align = "center">REGISTER TO OUR WEBSITE</h1>
-        <form action = "#" method = "POST" align = "center">
+        <h1 style="color: green;" align = "left">REGISTER TO OUR WEBSITE</h1><br>
+        <form action = "#" method = "POST">
             <label><b>FIRST NAME : </b></label>
-            <input type = ""
+            <input type = "name" name = "firnam" id = "firnam" placeholder = "First name" required>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <label><b>LAST NAME : </b></label>
+            <input type = "name" name = "lasnam" id = "lasnam" placeholder = "Last name"><br><br><br>
+            <label><b>USERNAME/MAIL ID : </b></label>
+            <input type = "email" name = "mail" id = "mail" placeholder = "Username@gmail.com" required><br><br>
+            <caption>You can use letters,numbers,periods</caption><br><br><br>
+            <label><b>PASSWORD : </b></label>
+            <input type = "password" name = "pass" id = "pass" placeholder = "Password" required>
+            &nbsp;&nbsp;&nbsp;
+            <label><b>CONFIRM PASSWORD : </b></label>
+            <input type = "password" name = "pass" id = "pass" placeholder = "Confirm password" required><br><br>
+            <caption>Use 8 or more characters with a mix of letters,numbers &<br>
+                     symbols
+            </caption><br><br><br>
+            <label><b>MOBILE NUMBER : </b></label>
+            <input type="number" name="num" id="num" placeholder="Mobile Number" required><br><br><br>
+            <input type="submit" value="Sign up" onclick="alert('Signed up successfully')">
+            &nbsp;&nbsp;
+            <input type = "reset" value = "Reset">
         </form>
     </body>
 </html>
