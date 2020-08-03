@@ -1,15 +1,22 @@
 <html>
     <head>
         <title>COVID-19 Precautionary Loginpage</title>
+        <style>
+            form{
+                width: 1500px;
+                clear : both;
+                text-align: center;
+            }
+        </style>
     </head>
     <body>
         <h1 style="color: red;" align = "center">LOGIN CREDENTIAL TO ENTER OUR WEBSITE</h1>
-        <form action="#" method = "POST" align = "center">
-            <label><b>EMAIL ID : </b></label>
-            <input type="email" name="user" id="user" placeholder="Enter your email id" required><br><br>
+        <form action="#" method = "POST">
+            <label></label><b>EMAIL ID : </b></label>
+            <input type = "email" name = "user" id = "user" placeholder="Enter your email id" size = "30" required><br><br>
             <label><b>PASSWORD : </b></label>
-            <input type = "password" name = "pass" id = "pass" placeholder="Enter your password" required><br><br>
-            <input type = "button" value = "Submit" onclick="alert('Logged in successfully')">
+            <input type = "password" name = "pass" id = "pass" placeholder="Enter your password" size = "30" required><br><br>
+            <input type = "submit" value = "Submit">
             &nbsp;&nbsp;
             <input type = "reset" value = "Reset">
         </form>
