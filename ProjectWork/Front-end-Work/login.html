@@ -7,6 +7,9 @@
                 clear : both;
                 text-align: center;
             }
+            div{
+                text-align: center;
+            }
         </style>
     </head>
     <body>
@@ -16,9 +19,11 @@
             <input type = "email" name = "user" id = "user" placeholder="Enter your email id" size = "30" required><br><br>
             <label><b>PASSWORD : </b></label>
             <input type = "password" name = "pass" id = "pass" placeholder="Enter your password" size = "30" required><br><br>
-            <input type = "submit" value = "Submit">
-            &nbsp;&nbsp;
-            <input type = "reset" value = "Reset">
+            <div class = "button">
+                <input type = "submit" value = "Submit">
+                &nbsp;&nbsp;
+                <input type = "reset" value = "Reset">
+            </div>
         </form>
     </body>
 </html>
