@@ -1,3 +1,4 @@
+#connect to sql server
 <?php
 
 $dbhost = 'localhost';

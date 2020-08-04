@@ -1,3 +1,4 @@
+#inserting data into Database using php
 <?php
 $id = $_POST['id'];
 $username = $_POST['user'];
