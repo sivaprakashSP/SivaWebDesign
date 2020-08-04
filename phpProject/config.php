@@ -1,5 +1,5 @@
-#configure sql server
 <?php
+   //Configure my database server
    define('DB_SERVER', 'localhost');
    define('DB_USERNAME', 'root');
    define('DB_PASSWORD', '');
