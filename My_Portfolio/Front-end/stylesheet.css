@@ -1,0 +1,14 @@
+.intro{
+    color: azure;
+    text-align: center;
+}
+
+.bg{
+    background-color: black;
+}
+
+.skills{
+    color: azure;
+    position: relative;
+    left: 200px;
+}
