@@ -15,7 +15,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 
     <body class = "bg">
-        <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <!-- Write your comments here -->
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark" class="navbar">
             <!-- Brand -->
             <a class="navbar-brand" href="#">My Portfolio</a>
             <!-- Toggler/collapsibe Button -->
@@ -26,13 +27,15 @@
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
+                        <div id="redirect">
+                            <a class="nav-link" href="#">Home</a>
+                        </div>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#Intro">Intro</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#skills">Skills</a>
+                        <a class="nav-link" href="#tools">Skills</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Experience</a>
@@ -43,20 +46,23 @@
                 </ul>
             </div> 
         </nav>
-        <div class="jumbotron text-center">
+        <div class="jumbotron text-center" class = "">
             <h1 class="display-4">Welcome folks!!</h1>
             <br>
             <h4>Welcome to my personal Portfolio!</h4>
         </div>
         <div id="Intro" class="intro">
             <h3>Who am i??</h3>
+            <br><br>
+            <img class="rounded-circle img-fluid bg-dark border-dark shadow-none" src= "images/Profile pic 3.0.jpg" align="center">
             <p>Hi folks !! how are you then ? I am Sivaprakash S , from  Who is a full-stack developer
                                 <br>
                                 who likes to create new and innovate web design and make creating things to look better!!
             </p>
         </div>
-        <div id="skills" class="skills">
-            <h4>Skills</h4>
+        <br><br><br><br>
+        <div id="tools" class="tools">
+            <h4>Tools</h4>
             <ul>
                 <li>HTML</li>
                 <li>CSS</li>
@@ -65,6 +71,9 @@
                 <li>Bootstrap</li>
                 <li>Adobe Photoshop</li>
             </ol>
+        </div>
+        <div align="center">
+            <a class = "button" href="#redirect">Go to top</a>
         </div> 
     </body>
 </html>

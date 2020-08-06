@@ -7,8 +7,23 @@
     background-color: black;
 }
 
-.skills{
+.tools{
     color: azure;
     position: relative;
     left: 200px;
+}
+
+.navbar{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        background-color: #1f1b24;
+        min-height: 8vh;
+        position: fixed;
+        top: 0;
+        z-index: 2;
+}
+
+.start{
+    background-color: black;
 }
