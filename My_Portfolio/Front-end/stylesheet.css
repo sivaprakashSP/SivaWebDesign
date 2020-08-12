@@ -28,3 +28,11 @@
     background-color: black;
 }
 
+.transition:hover{
+    color:red;
+}
+
+.transition{
+    background-color: yellow;
+    font-family: cursive;
+}
