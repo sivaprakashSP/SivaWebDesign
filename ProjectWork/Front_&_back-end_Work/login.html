@@ -37,7 +37,7 @@
             {
             alert('Thank You for Login & You are Redirecting to Google Website');
             //Redirecting to other page or webste code or you can set your own html page.
-            window.open('http://www.google.com');
+            window.open("welcome_page.html");
             }
             }		
             </script>
@@ -52,7 +52,7 @@
             <label><b>PASSWORD : </b></label>
             <input type = "password" name = "pass" id = "pass" placeholder="Enter your password" size = "30" required><br><br>
             <div class = "button">
-                <input type = "submit" value = "Submit" onclick="login()">
+                <a href="welcome_page.html"><input type = "submit" value = "Submit" onclick="login()"></a>
                 &nbsp;&nbsp;
                 <input type = "reset" value = "Reset">
             </div>
